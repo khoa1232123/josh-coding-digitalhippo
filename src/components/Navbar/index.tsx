@@ -1,9 +1,9 @@
 import React from "react";
-import MaxWithWrapper from "./MaxWithWrapper";
+import MaxWithWrapper from "../MaxWithWrapper";
 import Link from "next/link";
-import { Icons } from "./Icons";
+import { Icons } from "../Icons";
 import NavItems from "./NavItems";
-import { buttonVariants } from "./ui";
+import { buttonVariants } from "../ui";
 import Cart from "./Cart";
 import UserAccountNav from "./UserAccountNav";
 
