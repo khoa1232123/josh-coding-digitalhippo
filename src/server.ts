@@ -3,6 +3,12 @@ import { getPayloadClient } from "./getPayload";
 import { nextApp, nextHandler } from "./next-utils";
 import * as trpcExpress from "@trpc/server/adapters/express";
 import { appRouter } from "./trpc";
+import dotenv from "dotenv";
+import path from "path";
+
+dotenv.config({
+  path: path.resolve(__dirname, "../.env"),
+});
 
 const app = express();
 
